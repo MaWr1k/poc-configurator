@@ -1,0 +1,62 @@
+{
+  "texture": [
+    { "name": "dark_wood_diff_1k", "src": "./textures/dark_wood_diff_1k.jpg" },
+    {
+      "name": "dark_wood_rough_1k",
+      "src": "./textures/dark_wood_rough_1k.jpg"
+    },
+    {
+      "name": "Floor_Concrete_Brick",
+      "src": "./textures/Floor_Concrete_Brick.jpg"
+    },
+    {
+      "name": "Floor_Grass1",
+      "src": "./textures/Floor_Grass1.jpg"
+    },
+    {
+      "name": "Floor_Marble1",
+      "src": "./textures/Floor_Marble1.jpg"
+    },
+    {
+      "name": "Floor_Marble2",
+      "src": "./textures/Floor_Marble2.jpg"
+    },
+    {
+      "name": "Floor_Marble3",
+      "src": "./textures/Floor_Marble3.jpg"
+    },
+    {
+      "name": "Floor_Marble4",
+      "src": "./textures/Floor_Marble4.jpg"
+    },
+    {
+      "name": "Floor_Marble5",
+      "src": "./textures/Floor_Marble5.jpg"
+    },
+    {
+      "name": "Floor_Marble6",
+      "src": "./textures/Floor_Marble6.jpg"
+    },
+    { "name": "Floor_Marble7", "src": "./textures/Floor_Marble7.jpg" },
+    { "name": "Floor_Marble8", "src": "./textures/Floor_Marble8.jpg" },
+    { "name": "Floor_Marble9", "src": "./textures/Floor_Marble9.jpg" },
+    { "name": "Floor_Wood1", "src": "./textures/Floor_Wood1.jpg" },
+    { "name": "Floor_Wood2", "src": "./textures/Floor_Wood2.jpg" },
+    { "name": "Floor_Wood3", "src": "./textures/Floor_Wood3.jpg" },
+    { "name": "Wall_Blue", "src": "./textures/Wall_Blue.jpg" },
+    {
+      "name": "Wall_Ceramic_brown",
+      "src": "./textures/Wall_Ceramic_brown.jpg"
+    },
+    {
+      "name": "Wall_Ceramic_green",
+      "src": "./textures/Wall_Ceramic_green.jpg"
+    },
+    { "name": "Wall_Green", "src": "./textures/Wall_Green.jpg" },
+    { "name": "Wall_Leaf1", "src": "./textures/Wall_Leaf1.jpg" },
+    { "name": "Wall_Leaf2", "src": "./textures/Wall_Leaf2.jpg" },
+    { "name": "Wall_Orange", "src": "./textures/Wall_Orange.jpg" },
+    { "name": "Wall_Red_marbles", "src": "./textures/Wall_Red_marbles.jpg" },
+    { "name": "Wall_White", "src": "./textures/Wall_White.jpg" }
+  ]
+}
