@@ -83,55 +83,8 @@ export default function Home() {
 
   // Delete Object
   const Delete = (props) => {
-    console.log("%c Line:92 🍧 IsObject", "color:#93c0a4", IsObject);
-    console.log("%c Line:86 🥔 props", "color:#93c0a4", props);
-    const index = IsObject.indexOf(props);
-    console.log("%c Line:88 🥑 index", "color:#f5ce50", index);
-    if (index > -1) {
-      // only splice array when item is found
-      IsObject.splice(index, 1); // 2nd parameter means remove one item only
-      console.log("%c Line:92 🍧 IsObject", "color:#93c0a4", IsObject);
-    }
-    // setIsObject((IsObject) => IsObject.filter((obj) => obj.key !== props));
-    // setIsCurrentObject(null);
-  };
-
-  // Snap Object
-  const snapObjects = () => {
-    const selectedObjectPoints = IsCurrentObject.parent.children.map(
-      (connPoint) => connPoint
-    );
-    IsObject.filter(
-      (object) => object.geometry.uuid !== IsCurrentObject.geometry.uuid
-    ).forEach((object) => console.log(object));
-    // IsObjects.filter((object) => object.uuid !== IsCurrentObject.uuid).forEach(
-    //   (object) => {
-    //     object.children[0].children.forEach((connPoint) => {
-    //       selectedObjectPoints.forEach((sConnPoint) => {
-    //         const s = new THREE.Vector3();
-    //         const d = new THREE.Vector3();
-    //         connPoint.getWorldPosition(d);
-    //         sConnPoint.getWorldPosition(s);
-    //         if (s.distanceTo(d) < 0.2) {
-    //           // Position difference between connection points in WORLD coords
-    //           // Move object that difference
-    //           const differenceWorld = new THREE.Vector3().subVectors(d, s);
-    //           const objectPosWorld = new THREE.Vector3();
-    //           IsCurrentObject.getWorldPosition(objectPosWorld);
-    //           const moveWorld = new THREE.Vector3().addVectors(
-    //             objectPosWorld,
-    //             differenceWorld
-    //           );
-    //           IsCurrentObject.position.set(
-    //             moveWorld.x,
-    //             moveWorld.y,
-    //             moveWorld.z
-    //           );
-    //         }
-    //       });
-    //     });
-    //   }
-    // );
+    setIsObject((IsObject) => IsObject.filter((obj) => obj.key !== props));
+    setIsCurrentObject(null);
   };
 
   return (
@@ -252,15 +205,13 @@ export default function Home() {
         {/* View Object's Form Array  */}
         {IsObject &&
           IsObject.map((val, index) => (
-            <>
-              <ObjectModule
-                obj={val.obj}
-                position={IsPrimitivePos}
-                geometry={val.geometry}
-                key={index}
-                onContextMenu={() => Delete(val)}
-              />
-            </>
+            <ObjectModule
+              obj={val.obj}
+              position={IsPrimitivePos}
+              geometry={val.geometry}
+              key={index}
+              onContextMenu={() => Delete(index + 1)}
+            />
           ))}
 
         {/* Use Transform Control */}
@@ -278,7 +229,6 @@ export default function Home() {
                     scale: [obj.scale.x, obj.scale.y, obj.scale.z],
                   });
               }
-              snapObjects();
             }}
           />
         )}
