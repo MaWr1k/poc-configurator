@@ -1,6 +1,6 @@
 /*
  *  Document    : Global.Storage.js
- *  Author      : Novac
+ *  Author      : Ganapathy
  *  Description : Global Storage for using zustand npm
  */
 import { create } from "zustand";

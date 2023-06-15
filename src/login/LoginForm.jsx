@@ -1,6 +1,6 @@
 /*
  *  Document    : LoginForm.js
- *  Author      : Novac
+ *  Author      : Ganapathy
  *  Description : LoginValidation
  */
 

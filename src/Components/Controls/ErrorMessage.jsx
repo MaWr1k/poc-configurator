@@ -1,6 +1,6 @@
 /*
  *  Document    : ErrorMessage.js
- *  Author      : Novac
+ *  Author      : Ganapathy
  *  Description : custom form error message for all components
  */
 

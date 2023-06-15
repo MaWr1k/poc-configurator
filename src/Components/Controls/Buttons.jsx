@@ -1,6 +1,6 @@
 /*
  *  Document    : Buttons.js
- *  Author      : Novac
+ *  Author      : Ganapathy
  *  Description : Custom button for all components
  */
 

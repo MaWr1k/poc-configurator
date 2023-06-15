@@ -1,6 +1,6 @@
 /*
  *  Document    : Object.Module.js
- *  Author      : Novac
+ *  Author      : Ganapathy
  *  Description : ObjectModule for Common file
  */
 import { useState } from "react";

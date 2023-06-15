@@ -1,6 +1,6 @@
 /*
  *  Document    : TransFormControl.Mode.js
- *  Author      : Novac
+ *  Author      : Ganapathy
  *  Description : Change Control Mode
  */
 import React, { useContext } from "react";

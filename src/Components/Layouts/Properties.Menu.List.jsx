@@ -1,6 +1,6 @@
 /*
  *  Document    : Properties.Menu.List.js
- *  Author      : Novac
+ *  Author      : Ganapathy
  *  Description : PropertiesMenuList for all
  */
 import { useState, useContext } from "react";

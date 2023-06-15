@@ -1,6 +1,6 @@
 /*
  *  Document    : index.js
- *  Author      : Novac
+ *  Author      : Ganapathy
  *  Description : Home Page
  */
 import * as THREE from "three";

@@ -1,6 +1,6 @@
 /*
  *  Document    : Loginvalidation.js
- *  Author      : Novac
+ *  Author      : Ganapathy
  *  Description : Loginvalidation
  */
 

@@ -1,6 +1,6 @@
 /*
  *  Document    : Texture.List.Model.js
- *  Author      : Novac
+ *  Author      : Ganapathy
  *  Description : Texture Change for Common
  */
 import {

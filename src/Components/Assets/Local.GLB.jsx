@@ -1,6 +1,6 @@
 /*
  *  Document    : Local.GLB.js
- *  Author      : Novac
+ *  Author      : Ganapathy
  *  Description : Import Local GLB File's
  */
 import { useGLTF } from "@react-three/drei";
